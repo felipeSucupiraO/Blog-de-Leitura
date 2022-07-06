@@ -1,0 +1,34 @@
+body
+{
+    margin: 0;
+    background-color: #181712;
+    height: 100%;
+    width: 100%;
+}
+
+header
+{
+    height: 95px;
+    position: sticky;
+    display: flex;
+    flex: row wrap;
+    background-color: #757571;
+}
+
+#headerLogo
+{
+    flex: 1 1 auto;
+}
+
+#logoImage
+{
+    height: 100%;
+}
+
+#headerTitle
+{
+    flex: 9 9 auto;
+
+    text-align: right;
+    font-size: 55;
+}
