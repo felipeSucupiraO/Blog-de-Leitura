@@ -2,16 +2,20 @@ body
 {
     margin: 0;
     background-color: #181712;
-    height: 100%;
     width: 100%;
+    height: 2000px;
 }
 
 header
 {
     height: 95px;
+
     position: sticky;
+    top: 0px;
+
     display: flex;
-    flex: row wrap;
+    flex-direction: row wrap;
+    
     background-color: #757571;
 }
 
@@ -31,4 +35,41 @@ header
 
     text-align: right;
     font-size: 55;
+}
+
+main
+{
+    height: 100%;
+}
+
+#mainSection
+{
+    display: flex;
+    flex-flow: row nowrap;
+
+    height: 100%;
+}
+
+#mainText
+{
+    flex: 2 2 auto;
+
+    color: white;
+
+    margin: 5% 15%;
+
+    text-indent: 20px;
+    font-size: 15pt;
+}
+
+#mainImage
+{
+    flex: 2 2 auto;
+
+    margin: 8% 3%;
+}
+
+#bookImage
+{
+    width: 100%;
 }
