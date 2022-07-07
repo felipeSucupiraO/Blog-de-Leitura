@@ -1,9 +1,9 @@
 body
 {
     margin: 0;
-    background-color: #A27B5C;
+    background-color: #541212;
     width: 100%;
-    height: 2000px;
+    height: 2250px;
 }
 
 header
@@ -16,17 +16,27 @@ header
     display: flex;
     flex-direction: row wrap;
 
-    background-color: #757571;
+    background-color: #0F0E0E;
 }
 
 #headerLogo
 {
-    flex: 1 1 auto;
+    flex: 1 1 0;
 }
 
 #logoImage
 {
     height: 100%;
+}
+
+#headerName
+{
+    flex: 0 1 auto;
+
+    margin: 0% 2%;
+
+    color: white;
+    font-size: 20pt;
 }
 
 #headerTitle
@@ -35,6 +45,7 @@ header
 
     text-align: right;
     font-size: 55;
+    color: white;
 }
 
 main
@@ -47,16 +58,23 @@ main
     display: flex;
     flex-flow: row nowrap;
 
-    height: 100%;
+    height: 2200px;
 
     margin: 45px 110px;
 
     background-color: #181712;
 }
 
+.title
+{
+    font-weight: bold;
+
+    text-indent: 0;
+}
+
 #mainText
 {
-    flex: 1 1 auto;
+    flex: 1 1 0;
 
     color: white;
 
@@ -64,16 +82,20 @@ main
 
     text-indent: 20px;
     font-size: 15pt;
+    text-align: justify;
 }
 
-#mainImage
+#sideMenu
 {
-    flex: 1 2 auto;
+    flex: 1 1 0;
 
     margin: 8% 3%;
 }
 
 #bookImage
 {
+    flex: 0 1 0;
+
     width: 100%;
+    height: initial;
 }
